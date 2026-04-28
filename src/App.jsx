@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+
 function ArrowUpRight(props) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
@@ -397,7 +398,7 @@ export default function GoogleFellowshipSite() {
                   <img
                     src="/Pritom_Chowdhury_2D-Bioelectronics_Lab.jpg"
                     alt="Pritom Chowdhury in the 2D Bioelectronics Lab"
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-contain transition duration-300"
                     onError={(event) => {
                       const target = event.currentTarget;
                       target.style.display = "none";
@@ -560,7 +561,7 @@ export default function GoogleFellowshipSite() {
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="h-full w-full object-contain transition duration-500 group-hover:scale-[1.02]"
+                        className="h-full w-full object-contain transition duration-300"
                         onError={(event) => {
                           const target = event.currentTarget;
                           target.style.display = "none";
