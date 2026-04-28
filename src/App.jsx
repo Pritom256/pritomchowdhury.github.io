@@ -340,7 +340,7 @@ export default function GoogleFellowshipSite() {
                 transition={{ duration: 0.72, delay: 0.14 }}
                 className="mt-6 max-w-3xl text-lg leading-8 text-slate-700"
               >
-                My research focuses on continuous blood pressure and arterial stiffness estimation from arterial waveforms.
+                My research in the 2D Bioelectronics Lab, Department of Biomedical Engineering, at UMass Amherst focuses on continuous blood pressure and arterial stiffness estimation from arterial waveforms.
                 I develop wearable bioelectronic interfaces, physiological signal-processing pipelines, and modeling
                 frameworks that aim to remain useful across subjects, sensor placements, and real-world sensing variability.
               </motion.p>
