@@ -398,7 +398,7 @@ export default function GoogleFellowshipSite() {
                   <img
                     src="/Pritom_Chowdhury_2D-Bioelectronics_Lab.jpg"
                     alt="Pritom Chowdhury in the 2D Bioelectronics Lab"
-                    className="h-full w-full object-contain transition duration-300"
+                    className="h-full w-full object-contain"
                     onError={(event) => {
                       const target = event.currentTarget;
                       target.style.display = "none";
@@ -561,7 +561,7 @@ export default function GoogleFellowshipSite() {
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="h-full w-full object-contain transition duration-300"
+                        className="h-full w-full object-contain"
                         onError={(event) => {
                           const target = event.currentTarget;
                           target.style.display = "none";
