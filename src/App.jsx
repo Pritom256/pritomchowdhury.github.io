@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+const base = import.meta.env.BASE_URL;
 
 function ArrowUpRight(props) {
   return (
@@ -233,35 +233,35 @@ const previousWorks = [
     title: "COEL maternal healthcare deployment",
     text:
       "Deployment-focused engineering for a maternal health IoT platform in rural settings, including battery optimization, manufacturing coordination, and field-readiness under real constraints.",
-    image: "/work-coel.jpg",
+    image: `${base}work-coel.jpg`,
     href: "#",
   },
    {
     title: "Soil Master Digital Soil Testing Kit (DSTK)",
     text:
       "An easy-to-use device designed for rural farmers in South Asia to test soil nutrients. It reduces testing time to roughly 20 minutes compared to hours for traditional methods.",
-    image: "/dstk-6.jpg",
+    image: `${base}dstk-6.jpg`,
     href: "#",
   },
     {
     title: "Kooli.ai",
     text:
       "An AI-powered audio generation and editing studio designed to simplify the end-to-end process of podcast creation.",
-    image: "/Koolio_image.jpg",
+    image: `${base}Koolio_image.jpg`,
     href: "#",
   },
   {
     title: "SmartBin for school environments",
     text:
       "An IoT-enabled system designed to encourage positive behavior and waste monitoring in school settings through practical deployment-focused technology.",
-    image: "/work-smartbin.jpg",
+    image: `${base}work-smartbin.jpg`,
     href: "#",
   },
   {
     title: "Airmate and public-interest environmental work",
     text:
       "Wearable environmental technology and broader public-interest work around air-quality awareness, embedded design, and low-resource usability.",
-    image: "/work-airmate.jpg",
+    image: `${base}/work-airmate.jpg`,
     href: "#",
   },
  
@@ -363,7 +363,7 @@ export default function GoogleFellowshipSite() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="/Pritom_Chowdhury_CV.pdf"
+                  href={`${base}Pritom_Chowdhury_CV.pdf`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5"
@@ -396,7 +396,7 @@ export default function GoogleFellowshipSite() {
               <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_24px_60px_rgba(15,23,42,0.08)]">
                 <div className="aspect-[4/4.6] overflow-hidden bg-slate-100">
                   <img
-                    src="/Pritom_Chowdhury_2D-Bioelectronics_Lab.jpg"
+                    src={`${base}Pritom_Chowdhury_2D-Bioelectronics_Lab.jpg`}
                     alt="Pritom Chowdhury in the 2D Bioelectronics Lab"
                     className="h-full w-full object-contain"
                     onError={(event) => {
@@ -644,7 +644,7 @@ export default function GoogleFellowshipSite() {
                 <ArrowUpRight className="h-4 w-4 text-slate-400" />
               </a>
               <a
-                href="/Pritom_Chowdhury_CV.pdf"
+                href={`${base}Pritom_Chowdhury_CV.pdf`}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-between rounded-2xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm transition hover:bg-white"
