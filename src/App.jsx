@@ -644,7 +644,7 @@ export default function GoogleFellowshipSite() {
                 <ArrowUpRight className="h-4 w-4 text-slate-400" />
               </a>
               <a
-                href="CV-Pritom_Chowdhury"
+                href="CV-Pritom_Chowdhury.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-between rounded-2xl border border-slate-200 bg-slate-50 px-5 py-4 text-sm transition hover:bg-white"
