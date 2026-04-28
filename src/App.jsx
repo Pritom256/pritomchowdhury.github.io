@@ -363,14 +363,14 @@ export default function GoogleFellowshipSite() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href={`${base}Pritom_Chowdhury_CV.pdf`}
+                  href={`${base}CV-Pritom_Chowdhury.pdf`}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5"
+                  className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-900 transition hover:-translate-y-0.5 hover:bg-slate-50"
                 >
                   CV <FileText className="h-4 w-4" />
                 </a>
-                <a
+                                <a
                   href="https://scholar.google.com/citations?user=mfgGYcoAAAAJ&hl=en"
                   target="_blank"
                   rel="noreferrer"
